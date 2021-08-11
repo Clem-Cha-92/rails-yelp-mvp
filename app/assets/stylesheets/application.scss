@@ -1,0 +1,33 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+nav#navbar {
+  padding: 30px 10px;
+  margin-bottom: 20px;
+
+}
+
+.link_header a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.link_header a:hover {
+  color: #c5c3c3;
+  text-decoration: none;
+}
+
+#body-yield {
+  margin: 0px 300px,
+}

@@ -10,6 +10,15 @@
   </head>
 
   <body>
-    <%= yield %>
+    <nav id="navbar" class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <div class="link_header"><%= link_to "Restaurants", restaurants_path %></div>
+        <div class="link_header"><%= link_to "Add a restaurant", new_restaurant_path %></div>
+      </div>
+    </nav>
+
+    <div id="body-yield">
+      <%= yield %>
+    </div>
   </body>
 </html>
